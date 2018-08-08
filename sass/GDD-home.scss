@@ -1,0 +1,28 @@
+@import "GDD_mixins";
+$default-size: 20px;
+$default-background:#fff;
+
+
+//For officers and anyone who has majorly contributed to the club
+.profiles{
+    display: flex;
+    flex: flex wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    .officer{
+        padding: 10px;
+        width: 30%;
+        @include respond-to(phone){
+            width:100%;
+            padding: 10px;
+        }
+
+        img{
+            width: 200px;
+            height: 140px;
+        }
+    }
+
+}

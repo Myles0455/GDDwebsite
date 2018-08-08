@@ -1,0 +1,19 @@
+.profiles {
+  display: flex;
+  flex: flex wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left;
+  width: 100%; }
+  .profiles .officer {
+    padding: 10px;
+    width: 30%; }
+    @media screen and (max-width: 507px) {
+      .profiles .officer {
+        width: 100%;
+        padding: 10px; } }
+    .profiles .officer img {
+      width: 200px;
+      height: 140px; }
+
+/*# sourceMappingURL=GDD-home.css.map */

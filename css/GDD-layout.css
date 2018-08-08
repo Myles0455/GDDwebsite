@@ -1,0 +1,94 @@
+body {
+  font-family: 'Lora', serif;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.billboard {
+  width: 100%;
+  min-height: 150px;
+  border-bottom: #999; }
+  .billboard img {
+    width: 100%;
+    height: 40%; }
+  @media screen and (max-width: 507px) {
+    .billboard {
+      display: none;
+      font-display: none; } }
+
+.hdr {
+  width: 100%;
+  min-height: 50px;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right, #149052, #137C75);
+  display: flex;
+  flex: row wrap;
+  justify-content: center; }
+  @media screen and (max-width: 507px) {
+    .hdr {
+      flex-direction: column; } }
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list li {
+    padding: 10px;
+    display: inline-block; }
+    @media screen and (max-width: 507px) {
+      .list li {
+        display: block; } }
+  .list a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff; }
+  .list a:hover {
+    color: #FBE691; }
+
+.gdd-title {
+  text-align: center; }
+  .gdd-title img {
+    width: 100%;
+    height: 140px; }
+  .gdd-title .underline {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #FFF, #FFF, #FFF, #149052, #137C75, #FFF, #FFF, #FFF); }
+
+.subject {
+  display: flex;
+  flex: flex wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left;
+  padding: 10px 20px;
+  margin: 0 auto;
+  max-width: 1100px; }
+  .subject .header-underline {
+    height: 2px;
+    width: 30%;
+    background-image: linear-gradient(to right, #149052, #137C75); }
+  .subject h1 {
+    text-align: left;
+    height: 20px;
+    width: 90%;
+    align-content: left; }
+    @media screen and (max-width: 507px) {
+      .subject h1 {
+        width: 100%; } }
+
+.contact-footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 0;
+  background-image: linear-gradient(to right, #149052, #137C75);
+  display: flex;
+  flex: row wrap;
+  justify-content: left; }
+  .contact-footer .contact-info {
+    margin: 20px;
+    text-align: left;
+    color: silver; }
+
+/*# sourceMappingURL=GDD-layout.css.map */

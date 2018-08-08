@@ -1,0 +1,13 @@
+@mixin respond-to($media) {
+    @if $media == pc{
+        @media screen and (min-width:507px){
+            @content;
+        }
+    }
+    @if $media == phone {
+        @media screen and (max-width: 507px){
+            @content;
+        }
+    }
+    
+}

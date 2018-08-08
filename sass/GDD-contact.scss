@@ -1,0 +1,13 @@
+@import "GDD_mixins";
+$default-size: 20px;
+$default-font:Helvetica, sans-serif;
+$default-background:#fff;
+
+.social-media{
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    display: flex;
+    flex: row wrap;
+    flex-direction: row;
+}
